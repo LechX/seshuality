@@ -4969,7 +4969,7 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   background-color: inherit;
-  background-image: url("file:///Users/lechkaiel/Documents/projects/images/seshgalleryjumbotron.jpg");
+  background-image: url("/images/seshgalleryjumbotron.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
