@@ -34,7 +34,7 @@ div {
   position: absolute;
   display: inline;
   right: 0%;
-  bottom: 10%;
+  bottom: 0%;
   padding: 25px;
   width: 100px;
   margin: 25px;
@@ -43,7 +43,7 @@ div {
 }
 
 a:link, a:visited {
-    background-color: #f44336;
+    background: -webkit-linear-gradient(yellow, #f44336);
     color: white;
     border-radius: 15px;
     width: 60px;
@@ -55,7 +55,7 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-    background-color: red;
+    background: -webkit-linear-gradient(#f44336, yellow);
 }
 
 ul {
@@ -86,19 +86,22 @@ h1 span {
   padding: 10px;
 }
 
-h1 span.spacer {
+.spacer {
    padding: 5px;
+   background: rgb(0, 0, 0);
+   background: rgba(0, 0, 0, 0.0);
 }
 
 footer {
   position: fixed;
-  left: 700px;
-  bottom: 30px;
-  height: 50px;
-  padding-left: 50px;
-  width: 100%;
+  left: 10px;
+  bottom: 10px;
+  height: 90px;
+  width: 90px;
   background: #003300;
   color: #ffffff;
   font: Serif;
-  border-radius: 15px;
+  border-radius: 100%;
+  text-align: center;
+  font-family: sans-serif;
 }

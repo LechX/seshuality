@@ -42,6 +42,7 @@ section {
 p {
   width: 550px;
   text-align: center;
+  line-height: 1.25em;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -50,6 +51,7 @@ p {
 h3 {
   width: 600px;
   text-align: center;
+  line-height: 1.75em;
   display: block;
   margin-left: auto;
   margin-right: auto;
